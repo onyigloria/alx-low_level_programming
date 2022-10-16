@@ -12,19 +12,19 @@ int main(void)
 	b = 1;
 	c = 2;
 
-	while (c < 20)
+	while (c <= 9)
 	{
 		b = 1;
-		while (b < 20)
+		while (b <= 8)
 		{
 			a = 0;
-			while (a < 20)
+			while (a <= 7)
 			{
-				if (a < b && b < c)
+				if (a != b && a != c && b != c)
 				{
-					putchar(c);
-					putchar(b);
-					putchar(a);
+					putchar(c + '0');
+					putchar(b + '0');
+					putchar(a + '0');
 					if (a == 0 && b == 1 && c == 2)
 					{
 						break;
