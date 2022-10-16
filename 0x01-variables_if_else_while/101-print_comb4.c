@@ -20,7 +20,7 @@ int main(void)
 			a = 128;
 			while (a < 138)
 			{
-				if (c != b && c != a && c < b < a)
+				if (a < b && b < c)
 				{
 					putchar(c);
 					putchar(b);
@@ -41,6 +41,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
-		
-
