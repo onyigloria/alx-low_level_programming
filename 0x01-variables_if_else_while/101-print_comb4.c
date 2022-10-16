@@ -8,24 +8,24 @@ int main(void)
 {
 	int a, b, c;
 
-	a = 1;
-	b = 2;
+	a = 2;
+	b = 1;
 	c = 0;
 
-	while (c <= 9)
+	while (c <= 7)
 	{
-		b = 2;
-		while (b <= 9)
+		b = 1;
+		while (b <= 7)
 		{
-			a = 1;
-			while (a <= 9)
+			a = 2;
+			while (a <= 7)
 			{
 				if (c != b && c != a && b != a)
 				{
 					putchar(c + '0');
 					putchar(b + '0');
 					putchar(a + '0');
-					if (a == 8 && b == 7 && c == 6)
+					if (a == 6 && b == 5 && c == 4)
 					{
 						break;
 					}
