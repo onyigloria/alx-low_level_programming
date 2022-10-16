@@ -8,16 +8,16 @@ int main(void)
 {
 	int a, b, c;
 
-	a = 0;
-	b = 1;
-	c = 2;
+	a = 1;
+	b = 2;
+	c = 0;
 
 	while (c <= 9)
 	{
-		b = 1;
+		b = 2;
 		while (b <= 9)
 		{
-			a = 0;
+			a = 1;
 			while (a <= 9)
 			{
 				if (c != b && c != a && b != a)
