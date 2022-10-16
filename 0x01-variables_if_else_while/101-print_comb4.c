@@ -12,20 +12,20 @@ int main(void)
 	b = 1;
 	c = 0;
 
-	while (c <= 7)
+	while (c <= 5)
 	{
 		b = 1;
-		while (b <= 7)
+		while (b <= 5)
 		{
 			a = 2;
-			while (a <= 7)
+			while (a <= 5)
 			{
 				if (c != b && c != a && b != a)
 				{
 					putchar(c + '0');
 					putchar(b + '0');
 					putchar(a + '0');
-					if (a == 6 && b == 5 && c == 4)
+					if (a == 7 && b == 8 && c == 9)
 					{
 						break;
 					}
