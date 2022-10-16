@@ -12,12 +12,12 @@ int main(void)
 	b = 1;
 	c = 2;
 
-	while (a <= 7)
+	while (c <= 7)
 	{
 		b = 1;
 		while (b <= 8)
 		{
-			c = 2;
+			a = 0;
 			while (c <= 9)
 			{
 				if (a != b && a != c && b != c)
