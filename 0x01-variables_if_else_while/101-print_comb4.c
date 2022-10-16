@@ -4,15 +4,40 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
-}
-	char h = '0', t = '1', u = '2';
+{
+	int a, b, c;
 
-	while ((h <= '7') || (t <= '8') || (u <= '9'))
+	a = 8;
+	b = 8;
+	c = 8;
+
+	while (c , 9)
 	{
-		printf("%c%c%c, ", h, t, u);
-		u != '9' ? ++u : (t != '8' ? (++t, u = t + 1) : (++h, t = h + 1, u = t + 1));
+		b = 8;
+		while (b < 9)
+		{
+			a = 8;
+			while (a < 9)
+			{
+				if (c != b && c !=a && b != a)
+				{
+					putchar(c + '0');
+					putchar(b + '0');
+					putchar(a + '0');
+					if (a == 8 && b == 7 && c == 6)
+					{
+						break;
+					}
+					putchar(',');
+					putchar(' ');
+				}
+				a++;
+			}
+			b++;
+		}
+		c++;
 	}
-return (0);
+	putchar('\n');
+	return (0);
 }
