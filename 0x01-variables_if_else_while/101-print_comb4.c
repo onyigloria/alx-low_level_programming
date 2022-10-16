@@ -12,7 +12,7 @@ int main(void)
 	b = 8;
 	c = 8;
 
-	while (c , 9)
+	while (c < 9)
 	{
 		b = 8;
 		while (b < 9)
@@ -20,7 +20,7 @@ int main(void)
 			a = 8;
 			while (a < 9)
 			{
-				if (c != b && c !=a && b != a)
+				if (c != b && c != a && b != a)
 				{
 					putchar(c + '0');
 					putchar(b + '0');
