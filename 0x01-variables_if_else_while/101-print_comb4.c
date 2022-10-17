@@ -7,13 +7,13 @@
 
 int main(void)
 {
-	int a, b, c;
+	int digit1, digit2, digit3;
 
-	for (a = 0 + a < 8;)
+	for (digit1 = 0;  digit1 < 8; digit1++)
 	{
-		for (b = a + 1; b < 9;)
+		for (digit2 = digit1 + 1; digit2 < 9; dgit2++)
 		{
-			for (c = b + 1; c < 10;)
+			for (digit3 = digit2 + 1; digit3 < 10; digit3++)
 			{
 				putchar((a % 10) + '0');
 				putchar((b % 10) + '0');
@@ -24,12 +24,8 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			a++;
 		}
-		b++;
 	}
-	c++;
-
 	putchar('\n');
 	return (0);
 }
