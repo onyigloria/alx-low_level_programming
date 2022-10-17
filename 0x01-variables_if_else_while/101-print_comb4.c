@@ -9,11 +9,11 @@ int main(void)
 {
 	int a, b, c;
 
-	for (a = 0 + a < 8; a++)
+	for (a = 0 + a < 8;)
 	{
-		for (b = a + 1; b < 9; b++)
+		for (b = a + 1; b < 9;)
 		{
-			for (c = b + 1; c < 10; c++)
+			for (c = b + 1; c < 10;)
 			{
 				putchar((a % 10) + '0');
 				putchar((b % 10) + '0');
@@ -24,8 +24,11 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
+			a++;
 		}
+		b++;
 	}
+	c++;
 
 	putchar('\n');
 	return (0);
