@@ -7,7 +7,7 @@
  * @src: bytes from memory area
  * @dest: to memory area
  *
- * Return: 0
+ * Return: dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
@@ -19,5 +19,5 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		i++;
 	}
 
-	return (0);
+	return (dest);
 }
