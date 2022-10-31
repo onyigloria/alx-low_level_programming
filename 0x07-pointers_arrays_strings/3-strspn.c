@@ -23,8 +23,8 @@ unsigned int _strspn(char *s, char *accept)
 			}
 		}
 		else
-			return (0);
+			return (z);
 	}
-		return (0);
+		return (z);
 
 }
