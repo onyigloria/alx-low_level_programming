@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - that returns 1 if the input integer is a prime
+ * check - check if the integer is a prime
  * @a:int
  * @b:int
  * Return: int
@@ -16,7 +16,7 @@ int check(int a, int b)
 }
 
 /**
- * main - states if number is prime
+ * is_prime_number - states if number is prime
  * @n:int
  * Return:int
  */
