@@ -2,10 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - prints the min number of coins to make change
- * for an amount of money
- * @argc: argument count
- * @argv: arguments
+ * main - prints the minimum number of coins.
+ * @argc: null pointer
+ * @argv: argument vector
  * Return: 0
  */
 int main(int argc, char **argv)
@@ -35,9 +34,10 @@ int main(int argc, char **argv)
 					count += total / cents[i];
 					total = total % cents[i];
 				}
-			}				
-
-		}	
+			}
+		}
+		if (total == 1)
+			count++;
 	}
 	else
 	{
