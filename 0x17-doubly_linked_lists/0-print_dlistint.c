@@ -18,5 +18,3 @@ size_t print_dlistint(const dlistint_t *h)
 	}
 	return (i);
 }
-Footer
-© 2023 GitHub, Inc.
